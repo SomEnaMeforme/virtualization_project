@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать!</h1>
+    <h2>Просмотреть все фильмы - <a class="btn btn-sm btn-primary" asp-page="Read" asp-route-id="1">Все фильмы</a></h2>
+
+    <h2>Поиск фильма - <a class="btn btn-sm btn-primary" asp-page="Search">Поисковик</a></h2>
+</div>
